@@ -1,0 +1,573 @@
+{
+    "data": {
+        "description": "i7 4710Q with 860M 16GB RAM",
+        "item_name": "Lenovo Y50",
+        "category": "/electronics/laptops",
+        "brand_id": "56e35t",
+        "brand_name": "Lenovo",
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ffgfg",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://wwwwwwww",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ewqqttt",
+                    "width": "1900"
+                }
+            }
+        ],
+        "item_height": "20cm",
+        "item_length": "20cm",
+        "item_width": "30cm",
+        "item_weight": "3kg",
+        "specs": [
+            {
+                "name": "Processor",
+                "val": "i5"
+            },
+            {
+                "name": "HDD",
+                "val": "500GB"
+            },
+            {
+                "name": "GPU",
+                "val": "860M"
+            }
+        ],
+        "attributes": [
+            {
+                "name": "Material",
+                "value": "Metal"
+            },
+            {
+                "name": "Brand",
+                "value": "Lenovo"
+            },
+            {
+                "name": "Keyboard",
+                "value": "Backlit"
+            }
+        ],
+        "price": {
+            "realPrice": 75000,
+            "salePrice": 70000,
+            "saleEndDate": "2050-12-31 23:59:59"
+        },
+        "variants": {
+            "name": "size",
+            "values": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ]
+        },
+        "color": "black"
+    }
+}
+
+
+,
+
+
+
+
+
+
+{
+    "data": {
+        "description": "Iphone X 128GB A10 Processor",
+        "item_name": "Iphone X",
+        "category": "/electronics/mobiles",
+        "brand_id": "4rrte32",
+        "brand_name": "Apple",
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ffgfg",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://wwwwwwww",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ewqqttt",
+                    "width": "1900"
+                }
+            }
+        ],
+        "item_height": "20cm",
+        "item_length": "20cm",
+        "item_width": "30cm",
+        "item_weight": "3kg",
+        "specs": [
+            {
+                "name": "Processor",
+                "val": "A10"
+            },
+            {
+                "name": "Storage",
+                "val": "128GB"
+            },
+            {
+                "name": "Display Type",
+                "val": "Retina"
+            }
+        ],
+        "attributes": [
+            {
+                "name": "Material",
+                "value": "Metal"
+            },
+            {
+                "name": "Brand",
+                "value": "Apple"
+            },
+            {
+                "name": "Port",
+                "value": "Apple"
+            }
+        ],
+        "price": {
+            "realPrice": 80000,
+            "salePrice": 73000,
+            "saleEndDate": "2050-12-31 23:59:59"
+        },
+        "variants": {
+            "name": "",
+            "values": [
+               
+            ]
+        },
+        "color": "Gold"
+    }
+}
+
+
+
+
+
+
+
+
+{
+    "data": {
+        "description": "Galaxy S10 128GB Exynos Processor",
+        "item_name": "Galaxy S10",
+        "category": "/electronics/mobiles",
+        "brand_id": "rerwrwe443",
+        "brand_name": "Samsung",
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ffgfg",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://wwwwwwww",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ewqqttt",
+                    "width": "1900"
+                }
+            }
+        ],
+        "item_height": "20cm",
+        "item_length": "20cm",
+        "item_width": "30cm",
+        "item_weight": "0.8kg",
+        "specs": [
+            {
+                "name": "Processor",
+                "val": "Exynos 9910"
+            },
+            {
+                "name": "Storage",
+                "val": "128GB"
+            },
+            {
+                "name": "Display Type",
+                "val": "Amoled"
+            }
+        ],
+        "attributes": [
+            {
+                "name": "Material",
+                "value": "Metal"
+            },
+            {
+                "name": "Brand",
+                "value": "Samsung"
+            },
+            {
+                "name": "Port",
+                "value": "Type-C"
+            }
+        ],
+        "price": {
+            "realPrice": 72000,
+            "salePrice": 68000,
+            "saleEndDate": "2050-12-31 23:59:59"
+        },
+        "variants": {
+            "name": "",
+            "values": [
+               
+            ]
+        },
+        "color": "White"
+    }
+}
+
+
+
+
+
+{
+    "data": {
+        "description": "HP Omen 128GB SSD",
+        "item_name": "HP Omen 3",
+        "category": "/electronics/laptops",
+        "brand_id": "segrgr3434",
+        "brand_name": "HP",
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ffgfg",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://wwwwwwww",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ewqqttt",
+                    "width": "1900"
+                }
+            }
+        ],
+        "item_height": "20cm",
+        "item_length": "20cm",
+        "item_width": "30cm",
+        "item_weight": "3.8kg",
+        "specs": [
+            {
+                "name": "Processor",
+                "val": "i7"
+            },
+            {
+                "name": "RAM",
+                "val": "32GB"
+            },
+            {
+                "name": "Resolution",
+                "val": "1920X1080"
+            }
+        ],
+        "attributes": [
+            {
+                "name": "Material",
+                "value": "Metal"
+            },
+            {
+                "name": "Brand",
+                "value": "HP"
+            },
+            {
+                "name": "Size",
+                "value": "15.6"
+            }
+        ],
+        "price": {
+            "realPrice": "86000",
+            "salePrice": "79000",
+            "saleEndDate": "2050-12-31 23:59:59"
+        },
+        "variants": {
+            "name": "",
+            "values": [
+               
+            ]
+        },
+        "color": "Silver"
+    }
+}
+
+
+
+
+
+
+
+
+
+{
+    "data": {
+        "description": "Puma Sports Maxima II",
+        "item_name": "Puma Maxima",
+        "category": "/mens/footwear",
+        "brand_id": "fd345rew2",
+        "brand_name": "Puma",
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ffgfg",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://wwwwwwww",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ewqqttt",
+                    "width": "1900"
+                }
+            }
+        ],
+        "item_height": "20cm",
+        "item_length": "20cm",
+        "item_width": "30cm",
+        "item_weight": "3.8kg",
+        "specs": [
+            {
+                "name": "Inner Material",
+                "val": "Fiber"
+            },
+            {
+                "name": "Outer Material",
+                "val": "Mesh"
+            }
+        ],
+        "attributes": [
+            {
+                "name": "Material",
+                "value": "Mesh"
+            },
+            {
+                "name": "Brand",
+                "value": "Puma"
+            },
+            {
+                "name": "Size",
+                "value": "15.6"
+            }
+        ],
+        "price": {
+            "realPrice": "5500",
+            "salePrice": "4900",
+            "saleEndDate": "2050-12-31 23:59:59"
+        },
+        "variants": {
+            "name": "size",
+            "values": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11"
+            ]
+        },
+        "color": "Red"
+    }
+}
+
+
+
+
+{
+    "data": {
+        "description": "Adidas Women's Workout T-Shirt",
+        "item_name": "Adidas Women's T-Shirt",
+        "category": "/women/upperwear",
+        "brand_id": "fgsgrr446hdth",
+        "brand_name": "Adidas",
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ffgfg",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://wwwwwwww",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ewqqttt",
+                    "width": "1900"
+                }
+            }
+        ],
+        "item_height": "100cm",
+        "item_length": "100cm",
+        "item_width": "48cm",
+        "item_weight": "0.2kg",
+        "specs": [
+            {
+                "name": "Inner Material",
+                "val": "Synthetic"
+            },
+            {
+                "name": "Outer Material",
+                "val": "Synthetic"
+            }
+        ],
+        "attributes": [
+            {
+                "name": "Material",
+                "value": "Synthetic"
+            },
+            {
+                "name": "Brand",
+                "value": "Adidas"
+            },
+            {
+                "name": "Type",
+                "value": "Sports"
+            }
+        ],
+        "price": {
+            "realPrice": "2800",
+            "salePrice": "2400",
+            "saleEndDate": "2050-12-31 23:59:59"
+        },
+        "variants": {
+            "name": "size",
+            "values": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        "color": "Black"
+    }
+}
+
+
+
+{
+    "data": {
+        "description": "Huwaei p30 with 48MP rear camera ultra zoom",
+        "item_name": "Huwaie P30",
+        "category": "/electronics/mobiles",
+        "brand_id": "er432tew",
+        "brand_name": "Huwaei",
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ffgfg",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://wwwwwwww",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://ewqqttt",
+                    "width": "1900"
+                }
+            }
+        ],
+        "item_height": "12cm",
+        "item_length": "12cm",
+        "item_width": "7cm",
+        "item_weight": "0.9kg",
+        "specs": [
+            {
+                "name": "Processor",
+                "val": "Krilin 11"
+            },
+            {
+                "name": "Storage",
+                "val": "256GB"
+            },
+            {
+                "name": "Display Type",
+                "val": "Amoled"
+            }
+        ],
+        "attributes": [
+            {
+                "name": "Material",
+                "value": "Metal"
+            },
+            {
+                "name": "Brand",
+                "value": "Huwaei"
+            },
+            {
+                "name": "Port",
+                "value": "Type-C"
+            }
+        ],
+        "price": {
+            "realPrice": "94000",
+            "salePrice": "81000",
+            "saleEndDate": "2050-12-31 23:59:59"
+        },
+        "variants": {
+            "name": "",
+            "values": [
+               
+            ]
+        },
+        "color": "Black"
+    }
+}

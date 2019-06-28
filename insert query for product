@@ -1,0 +1,315 @@
+INSERT QUERY FOR PRODUCTS:
+
+db.getCollection('products').insert({
+    
+   
+    "desc": [
+        {
+            "lang": "en",
+            "val": "Your Perfectly Stylish and Comfy Running Partner! These sports shoes are an unquestionable requirement have for each one of those men out there who are wellness monstrosities. Lotto's superior running shoes highlight innovation and pattern for most extreme solace and style while running or gymming."
+        }
+    ],
+    "name": "VERTIGO Running Shoes For Men",
+    "lname": "vertigo running shoes for men",
+    "category": "/mens/footwear",
+    "brand": {
+        "id": "2483510",
+        "img": {
+            "src": "https://i.pinimg.com/originals/87/9d/a1/879da11bf110c06ca8df7036900e4388.jpg"
+        },
+        "name": "Puma"
+    },
+    "assets": {
+        "imgs": [
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://rukminim1.flixcart.com/image/800/960/jpinjbk0/shoe/8/h/4/ar4840-010-6-lotto-black-original-imaewa2suxegymqc.jpeg?q=50",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://rukminim1.flixcart.com/image/800/960/jpinjbk0/shoe/8/h/4/ar4840-010-7-lotto-black-original-imaewa2st8xuue5h.jpeg?q=50",
+                    "width": "1900"
+                }
+            },
+            {
+                "img": {
+                    "height": "1900",
+                    "src": "https://rukminim1.flixcart.com/image/800/960/jpinjbk0/shoe/8/h/4/ar4840-010-6-lotto-black-original-imaewa2s3wkwhjbp.jpeg?q=50",
+                    "width": "1900"
+                }
+            }
+        ]
+    },
+    "shipping": {
+        "dimensions": {
+            "height": "13.0",
+            "length": "1.8",
+            "width": "26.8"
+        },
+        "weight": "2.75"
+    },
+    "specs": [
+        {
+            "name": "Heel Height (in.)",
+            "val": "3.75"
+        }
+    ],
+    "attrs": [
+        {
+            "name": "Occassion",
+            "value": "Sports"
+        },
+        {
+            "name": "Outer Material",
+            "value": "Synthetic"
+        },
+        {
+            "name": "Inner Material",
+            "value": "Mesh"
+        },
+        {
+            "name": "Brand",
+            "value": "Lotto"
+        }
+    ],
+    prices: [
+        {
+            
+            name: String,    // "Color",
+            value: String,   //"Black"
+            itm_price: String,   // 69.99,
+            sale: {
+                salePrice: String,   // 42.72,
+                saleEndDate: String  // "2050-12-31 23:59:59"
+            }
+            
+        }
+    ],
+    "lastUpdated": 1400877254787
+
+    })
+
+
+
+
+
+
+
+
+
+
+
+INSERT QUERY FOR VARIANTS:(part 1)
+
+    db.getCollection('variants').insert({
+    
+    
+    
+    "name": "Width:Medium,Color:Ivory,Shoe Size:9",
+    "lname": "width:medium,color:ivory,shoe size:9",
+    "itemId": "5d146779e952873839d8a0cf",
+    "altIds": {
+        "upc": "5d146779e952873839d8a0cf"
+    },
+    "assets": {
+        "imgs": [
+            {
+                "color":"red",
+                "width": "1900",
+                "height": "1900",
+                "src": "http://c.shld.net/rpx/i/s/i/spin/image/spin_prod_945348512"
+            },
+            {
+                "color":"black",
+                "width": "1900",
+                "height": "1900",
+                "src": "http://c.shld.net/rpx/i/s/i/spin/image/spin_prod_945348612"
+            }
+        ]
+    },
+    
+    "variants":[
+    {
+    "attrs": [
+        {
+            "name": "Size",
+            "value": "7"
+        },
+        {
+            "name": "Color",
+            
+            "value": "Black"
+        },
+        
+    ]
+    },{
+    "attrs": [
+        {
+            "name": "Size",
+            "value": "8"
+        },
+        {
+            "name": "Color",
+            
+            "value": "Black"
+        },
+        
+    ]
+    },
+        ]
+   
+    })
+
+
+
+
+
+
+
+
+INSERT INTO VARIANTS PART 2:
+
+
+ db.getCollection('variants').insert({
+    
+    
+    
+    "name": "Width:Medium,Color:Ivory,Shoe Size:9",
+    "lname": "width:medium,color:ivory,shoe size:9",
+    "itemId": "5d146779e952873839d8a0cf",
+    "altIds": {
+        "upc": "5d146779e952873839d8a0cf"
+    },
+    "assets": {
+        "imgs": [
+            {
+                "color":"red",
+                "width": "1900",
+                "height": "1900",
+                "src": "http://c.shld.net/rpx/i/s/i/spin/image/spin_prod_945348512"
+            },
+            {
+                "color":"black",
+                "width": "1900",
+                "height": "1900",
+                "src": "http://c.shld.net/rpx/i/s/i/spin/image/spin_prod_945348612"
+            }
+        ]
+    },
+    
+    "variants":[
+       
+        {
+            "name": "Size",
+            "values":[7,8,9,10]
+        },
+        {
+            "name": "Color",
+            
+            "values": ["Black","Red"]
+        },
+        
+  
+        ]
+   
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    QUERY FOR PRICE
+
+    db.getCollection('prices').insert({
+    
+    "pid" : "5d146779e952873839d8a0cf",
+    variants: [
+        {
+            "name":"color",
+            "value":"black",
+            "itm_price":"Rs2500",
+            "sale": {
+                "salePrice":"Rs1800",
+                "saleEndDate":"2050-12-31 23:59:59"
+            },
+            lastUpdated:"1374647707394"
+        },
+        {
+            "name":"color",
+            "value":"red",
+            "itm_price":"Rs3000",
+            "sale": {
+                "salePrice":"Rs2200",
+                "saleEndDate":"2020-12-31 23:59:59"
+            },
+            lastUpdated:"1374647707394"
+        },
+        ]
+    
+    
+    
+    
+    })
+
+
+
+
+
+    GET PRICE OF PARTICULAR ITEM VARIANT QUERY:
+    db.getCollection('products').find({"_id":ObjectId("5d146779e952873839d8a0cf"),
+"prices.value":"black",
+    "prices.name":"color"},
+    {"prices.$":1});
+
+
+
+    GET VALUES OF A VARIANT NAME:
+     db.getCollection('products').find({"_id":ObjectId("5d146779e952873839d8a0cf"),
+"prices.value":"black",
+    "prices.name":"color"},
+    {"prices.$":1});
+
+
+
+
+
+
+
+
+
+
+    LESS THAN AND GREATER THAN USING AND IN MONGODB:
+    db.getCollection('products').find({$and:[{"price.realPrice":{"$gt":50000,"$lt":90000}}]});
+
+
+    LESS THAN AND GREATER THAN USING AND IN NODE:
+url->   http://localhost:3000/products/products?range=[{"price.realPrice":{"$gt":50000,"$lt":90000}}]
+
+query = products.find({ $and: range }).skip(page).limit(limit);
+
+
+RANGE AND FILTER COMBINED:
+URL:    http://localhost:3000/products/products?filter=[{"color":"black"}]&range=[{"price.realPrice":{"$gt":30000,"$lt":90000}}]
