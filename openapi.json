@@ -1,0 +1,466 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Products REST API",
+    "description" : "CRUD for Products Collection",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:3000"
+  } ],
+  "paths" : {
+    "/products/products" : {
+      "put" : {
+        "description" : "Update API using JSON Body(user id and token required for authentication)",
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "query",
+          "description" : "User id for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "5d11cd6412d1a6244498817c"
+        }, {
+          "name" : "token",
+          "in" : "query",
+          "description" : "Token for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "token_sample_re345ree"
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/body"
+              },
+              "examples" : {
+                "0" : {
+                  "value" : "{\n    \"data\": {\n    \t\"_id\":\"5d1c4fb773ce5f2300430005\",\n        \"description\": \"Huwaei p30 with 48MP rear camera ultra zoom\",\n        \"item_name\": \"Huwaie P30 Pro\",\n        \"category\": \"/electronics/mobiles\",\n        \"brand_id\": \"er432tew\",\n        \"brand_name\": \"Huwaei\",\n        \"imgs\": [\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://ffgfg\",\n                    \"width\": \"1900\"\n                }\n            },\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://wwwwwwww\",\n                    \"width\": \"1900\"\n                }\n            },\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://ewqqttt\",\n                    \"width\": \"1900\"\n                }\n            }\n        ],\n        \"item_height\": \"12cm\",\n        \"item_length\": \"12cm\",\n        \"item_width\": \"7cm\",\n        \"item_weight\": \"0.9kg\",\n        \"specs\": [\n            {\n                \"name\": \"Processor\",\n                \"val\": \"Krilin 11\"\n            },\n            {\n                \"name\": \"Storage\",\n                \"val\": \"256GB\"\n            },\n            {\n                \"name\": \"Display Type\",\n                \"val\": \"Amoled\"\n            }\n        ],\n        \"attributes\": [\n            {\n                \"name\": \"Material\",\n                \"value\": \"Metal\"\n            },\n            {\n                \"name\": \"Brand\",\n                \"value\": \"Huwaei\"\n            },\n            {\n                \"name\": \"Port\",\n                \"value\": \"Type-C\"\n            }\n        ],\n        \"price\": {\n            \"realPrice\": \"94000\",\n            \"salePrice\": \"81000\",\n            \"saleEndDate\": \"2050-12-31 23:59:59\"\n        },\n        \"variants\": {\n            \"name\": \"\",\n            \"values\": [\n               \n            ]\n        },\n        \"color\": \"Black\"\n    }\n}\n"
+                },
+                "1" : {
+                  "value" : "{\n    \"data\": {\n    \t\n        \"description\": \"Huwaei p30 with 48MP rear camera ultra zoom\",\n        \"item_name\": \"Huwaie P30\",\n        \"category\": \"/electronics/mobiles\",\n        \"brand_id\": \"er432tew\",\n        \"brand_name\": \"Huwaei\",\n        \"imgs\": [\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://ffgfg\",\n                    \"width\": \"1900\"\n                }\n            },\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://wwwwwwww\",\n                    \"width\": \"1900\"\n                }\n            },\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://ewqqttt\",\n                    \"width\": \"1900\"\n                }\n            }\n        ],\n        \"item_height\": \"12cm\",\n        \"item_length\": \"12cm\",\n        \"item_width\": \"7cm\",\n        \"item_weight\": \"0.9kg\",\n        \"specs\": [\n            {\n                \"name\": \"Processor\",\n                \"val\": \"Krilin 11\"\n            },\n            {\n                \"name\": \"Storage\",\n                \"val\": \"256GB\"\n            },\n            {\n                \"name\": \"Display Type\",\n                \"val\": \"Amoled\"\n            }\n        ],\n        \"attributes\": [\n            {\n                \"name\": \"Material\",\n                \"value\": \"Metal\"\n            },\n            {\n                \"name\": \"Brand\",\n                \"value\": \"Huwaei\"\n            },\n            {\n                \"name\": \"Port\",\n                \"value\": \"Type-C\"\n            }\n        ],\n        \"price\": {\n            \"realPrice\": \"94000\",\n            \"salePrice\": \"81000\",\n            \"saleEndDate\": \"2050-12-31 23:59:59\"\n        },\n        \"variants\": {\n            \"name\": \"\",\n            \"values\": [\n               \n            ]\n        },\n        \"color\": \"Black\"\n    }\n}\n"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          },
+          "404" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "text/html; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "post" : {
+        "description" : "Insert API with JSON Body(user id and token required for authentication)",
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "query",
+          "description" : "User id for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "5d11cd6412d1a6244498817c"
+        }, {
+          "name" : "token",
+          "in" : "query",
+          "description" : "Token for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "token_sample_re345ree"
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/body_1"
+              },
+              "examples" : {
+                "0" : {
+                  "value" : "{\n    \"data\": {\n    \t\"_id\":\"5d1c4fb773ce5f2300430005\",\n        \"description\": \"Huwaei p30 with 48MP rear camera ultra zoom\",\n        \"item_name\": \"Huwaie P30 Pro\",\n        \"category\": \"/electronics/mobiles\",\n        \"brand_id\": \"er432tew\",\n        \"brand_name\": \"Huwaei\",\n        \"imgs\": [\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://ffgfg\",\n                    \"width\": \"1900\"\n                }\n            },\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://wwwwwwww\",\n                    \"width\": \"1900\"\n                }\n            },\n            {\n                \"img\": {\n                    \"height\": \"1900\",\n                    \"src\": \"https://ewqqttt\",\n                    \"width\": \"1900\"\n                }\n            }\n        ],\n        \"item_height\": \"12cm\",\n        \"item_length\": \"12cm\",\n        \"item_width\": \"7cm\",\n        \"item_weight\": \"0.9kg\",\n        \"specs\": [\n            {\n                \"name\": \"Processor\",\n                \"val\": \"Krilin 11\"\n            },\n            {\n                \"name\": \"Storage\",\n                \"val\": \"256GB\"\n            },\n            {\n                \"name\": \"Display Type\",\n                \"val\": \"Amoled\"\n            }\n        ],\n        \"attributes\": [\n            {\n                \"name\": \"Material\",\n                \"value\": \"Metal\"\n            },\n            {\n                \"name\": \"Brand\",\n                \"value\": \"Huwaei\"\n            },\n            {\n                \"name\": \"Port\",\n                \"value\": \"Type-C\"\n            }\n        ],\n        \"price\": {\n            \"realPrice\": \"94000\",\n            \"salePrice\": \"81000\",\n            \"saleEndDate\": \"2050-12-31 23:59:59\"\n        },\n        \"variants\": {\n            \"name\": \"\",\n            \"values\": [\n               \n            ]\n        },\n        \"color\": \"Black\"\n    }\n}\n"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/products/products/[id]" : {
+      "delete" : {
+        "description" : "Delete API with product ID(user id and token required for authentication)",
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "query",
+          "description" : "User id for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "5d11cd6412d1a6244498817c"
+        }, {
+          "name" : "token",
+          "in" : "query",
+          "description" : "Token for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "token_sample_re345ree"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          },
+          "404" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/products/products/" : {
+      "get" : {
+        "description" : "Get data using filter(user id and token required for authentication)",
+        "parameters" : [ {
+          "name" : "filter",
+          "in" : "query",
+          "description" : "Filter field will have search criteria",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "[{\"category\":\"/mens/footwear\"}]"
+        }, {
+          "name" : "sort",
+          "in" : "query",
+          "description" : "Sort field will have sort condition",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "{\"price.realPrice\":1}"
+        }, {
+          "name" : "range",
+          "in" : "query",
+          "description" : "Range field will have the range criteria(less than or greater than)",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "[{\"price.realPrice\":{\"$gt\":2000,\"$lt\":10000}}]"
+        }, {
+          "name" : "page",
+          "in" : "query",
+          "description" : "Page field for Paging purpose",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "page=2"
+        }, {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "Limit field for limiting the response data",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "limit=2"
+        }, {
+          "name" : "id",
+          "in" : "query",
+          "description" : "User id for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "5d11cd6412d1a6244498817c"
+        }, {
+          "name" : "token",
+          "in" : "query",
+          "description" : "Token for Authentication",
+          "required" : true,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "example" : "token_sample_re345ree"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          },
+          "403" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "productsproducts_data_img" : {
+        "type" : "object",
+        "properties" : {
+          "src" : {
+            "type" : "string"
+          },
+          "width" : {
+            "type" : "string"
+          },
+          "height" : {
+            "type" : "string"
+          }
+        }
+      },
+      "productsproducts_data_imgs" : {
+        "type" : "object",
+        "properties" : {
+          "img" : {
+            "$ref" : "#/components/schemas/productsproducts_data_img"
+          }
+        }
+      },
+      "productsproducts_data_variants" : {
+        "type" : "object",
+        "properties" : {
+          "values" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "name" : {
+            "type" : "string"
+          }
+        }
+      },
+      "productsproducts_data_specs" : {
+        "type" : "object",
+        "properties" : {
+          "val" : {
+            "type" : "string"
+          },
+          "name" : {
+            "type" : "string"
+          }
+        }
+      },
+      "productsproducts_data_price" : {
+        "type" : "object",
+        "properties" : {
+          "salePrice" : {
+            "type" : "string"
+          },
+          "saleEndDate" : {
+            "type" : "string"
+          },
+          "realPrice" : {
+            "type" : "string"
+          }
+        }
+      },
+      "productsproducts_data_attributes" : {
+        "type" : "object",
+        "properties" : {
+          "name" : {
+            "type" : "string"
+          },
+          "value" : {
+            "type" : "string"
+          }
+        }
+      },
+      "productsproducts_data" : {
+        "type" : "object",
+        "properties" : {
+          "item_length" : {
+            "type" : "string"
+          },
+          "item_width" : {
+            "type" : "string"
+          },
+          "imgs" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/productsproducts_data_imgs"
+            }
+          },
+          "color" : {
+            "type" : "string"
+          },
+          "description" : {
+            "type" : "string"
+          },
+          "item_name" : {
+            "type" : "string"
+          },
+          "brand_name" : {
+            "type" : "string"
+          },
+          "variants" : {
+            "$ref" : "#/components/schemas/productsproducts_data_variants"
+          },
+          "item_height" : {
+            "type" : "string"
+          },
+          "brand_id" : {
+            "type" : "string"
+          },
+          "item_weight" : {
+            "type" : "string"
+          },
+          "specs" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/productsproducts_data_specs"
+            }
+          },
+          "price" : {
+            "$ref" : "#/components/schemas/productsproducts_data_price"
+          },
+          "attributes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/productsproducts_data_attributes"
+            }
+          },
+          "category" : {
+            "type" : "string"
+          }
+        }
+      },
+      "body" : {
+        "type" : "object",
+        "properties" : {
+          "data" : {
+            "$ref" : "#/components/schemas/productsproducts_data"
+          }
+        }
+      },
+      "body_1" : {
+        "type" : "object",
+        "properties" : {
+          "data" : {
+            "$ref" : "#/components/schemas/productsproducts_data"
+          }
+        }
+      }
+    }
+  }
+}

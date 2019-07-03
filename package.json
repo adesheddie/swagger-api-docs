@@ -1,0 +1,26 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "PRODUCTS CRUD WITH API DOCUMENTATION USING SWAGGER",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adesheddie/proper-products-api.git"
+  },
+  "author": "adesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adesheddie/proper-products-api/issues"
+  },
+  "homepage": "https://github.com/adesheddie/proper-products-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.2",
+    "swagger-ui-express": "^4.0.7"
+  }
+}
