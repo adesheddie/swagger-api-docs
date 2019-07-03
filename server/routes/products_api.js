@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var products = require('../models/products.js');
 var register = require('../models/register');
-var mongojs = require('mongojs');
+
 
 router.get('/products/:id', function (req, res) {
 
