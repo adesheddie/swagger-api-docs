@@ -54,7 +54,18 @@
         },
         "responses" : {
           "200" : {
-            "description" : "Auto generated using Swagger Inspector",
+            "description" : "Update Successful",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          },
+          "403" : {
+            "description" : "UserID/Token Invalid",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -65,7 +76,7 @@
             }
           },
           "404" : {
-            "description" : "Auto generated using Swagger Inspector",
+            "description" : "Update Failed, Product not found",
             "content" : {
               "text/html; charset=utf-8" : {
                 "schema" : {
@@ -121,7 +132,18 @@
         },
         "responses" : {
           "200" : {
-            "description" : "Auto generated using Swagger Inspector",
+            "description" : "Insert Successful",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          },
+          "403" : {
+            "description" : "UserID/Token Invalid",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -168,7 +190,18 @@
         } ],
         "responses" : {
           "200" : {
-            "description" : "Auto generated using Swagger Inspector",
+            "description" : "Delete Successful",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          },
+          "403" : {
+            "description" : "UserID/Token Invalid",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -179,7 +212,7 @@
             }
           },
           "404" : {
-            "description" : "Auto generated using Swagger Inspector",
+            "description" : "Product Not Found",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -281,7 +314,7 @@
         } ],
         "responses" : {
           "200" : {
-            "description" : "Auto generated using Swagger Inspector",
+            "description" : "Query Successful",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {
@@ -292,7 +325,18 @@
             }
           },
           "403" : {
-            "description" : "Auto generated using Swagger Inspector",
+            "description" : "UserId/Token Invalid",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          },
+          "404" : {
+            "description" : "Oops! Nothing Found",
             "content" : {
               "application/json; charset=utf-8" : {
                 "schema" : {

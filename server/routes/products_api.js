@@ -194,7 +194,7 @@ router.get('/products', function (req, res) {
                     res.status(500).send({ error: err });
                 }
                 // console.log(query);
-                if (!docs) {
+                if (docs.length==0) {
                     return res.send(404, 'No data was found');
                 }
                 // console.log("Here are Docs_____")
