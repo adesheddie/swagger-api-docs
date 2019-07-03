@@ -6,7 +6,7 @@
     "version" : "0.1"
   },
   "servers" : [ {
-    "url" : "http://localhost:3000"
+    "url" : "https://swagger-api-docs.herokuapp.com"
   } ],
   "paths" : {
     "/products/products" : {
@@ -88,7 +88,7 @@
           }
         },
         "servers" : [ {
-          "url" : "http://localhost:3000"
+          "url" : "https://swagger-api-docs.herokuapp.com"
         } ]
       },
       "post" : {
@@ -155,11 +155,11 @@
           }
         },
         "servers" : [ {
-          "url" : "http://localhost:3000"
+          "url" : "https://swagger-api-docs.herokuapp.com"
         } ]
       },
       "servers" : [ {
-        "url" : "http://localhost:3000"
+        "url" : "https://swagger-api-docs.herokuapp.com"
       } ]
     },
     "/products/products/[id]" : {
@@ -224,11 +224,11 @@
           }
         },
         "servers" : [ {
-          "url" : "http://localhost:3000"
+          "url" : "https://swagger-api-docs.herokuapp.com"
         } ]
       },
       "servers" : [ {
-        "url" : "http://localhost:3000"
+        "url" : "https://swagger-api-docs.herokuapp.com"
       } ]
     },
     "/products/products/" : {
@@ -348,11 +348,11 @@
           }
         },
         "servers" : [ {
-          "url" : "http://localhost:3000"
+          "url" : "https://swagger-api-docs.herokuapp.com"
         } ]
       },
       "servers" : [ {
-        "url" : "http://localhost:3000"
+        "url" : "https://swagger-api-docs.herokuapp.com"
       } ]
     }
   },
