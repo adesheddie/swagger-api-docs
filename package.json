@@ -2,21 +2,18 @@
   "name": "products",
   "version": "1.0.0",
   "description": "PRODUCTS CRUD WITH API DOCUMENTATION USING SWAGGER",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  
   "author": "adesh",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adesheddie/proper-products-api/issues"
-  },
-  
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
     "mongoose": "^5.6.2",
     "swagger-ui-express": "^4.0.7"
   }
