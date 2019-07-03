@@ -4,7 +4,7 @@ var router=express.Router();
 var app = express();
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
-var crypto = require('crypto');
+
 var cors = require('cors')
 // app.use(cors());
 app.options('*', cors());
